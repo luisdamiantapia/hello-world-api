@@ -8,6 +8,6 @@ public class DemoController {
 
 	@GetMapping("/demo")
 	public String demo() {
-		return "HELLO NENIS";
+		return "HELLO FROM AN SPRING BOOT REST API.";
 	}
 }
